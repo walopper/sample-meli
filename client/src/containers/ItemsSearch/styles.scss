@@ -1,0 +1,9 @@
+@import '@Styles/_variables.scss';
+@import '@Styles/_shared.scss';
+
+.itemLististContainer {
+    @extend %pageContainer;
+    background-color: #fff;
+    display: block;
+    padding: 14px;
+}

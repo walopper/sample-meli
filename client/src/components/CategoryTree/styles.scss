@@ -1,0 +1,15 @@
+@import '@Styles/_variables.scss';
+
+.categoryTreeContainer {
+    width: $pageMinWidth;
+    margin: 0 auto;
+    font-size: 12px;
+    padding: 14px 0;
+    color: #999;
+
+    span {
+        display: inline-block;
+        font-size: .9em;
+        margin: 0 10px;
+    }
+}

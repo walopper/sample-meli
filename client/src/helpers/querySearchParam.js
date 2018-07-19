@@ -1,0 +1,1 @@
+export default (key, querySearch) => (new URLSearchParams(querySearch)).get(key);

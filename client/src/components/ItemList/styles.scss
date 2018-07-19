@@ -1,0 +1,39 @@
+@import '@Styles/_variables.scss';
+
+$imageSize: 150px;
+
+.itemInListContainer {
+    border-bottom: 1px solid rgba(0, 0, 0, .07);
+    padding: 16px 0;
+
+    .image {
+        height: $imageSize;
+
+        img {
+            cursor: pointer;
+            height: $imageSize;
+            width: $imageSize;
+        }
+    }
+
+    .price {
+        font-size: 24px;
+        line-height: 1;
+        margin-bottom: 22px;
+    }
+
+    .title {
+        color: #777;
+        cursor: pointer;
+        font-size: 18px;
+
+        &:hover {
+            color: #000;
+        }
+    }
+
+    .location {
+        color: #999;
+        font-size: 12px;
+    }
+}

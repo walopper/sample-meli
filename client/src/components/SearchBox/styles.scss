@@ -1,0 +1,59 @@
+@import '@Styles/_variables.scss';
+@import '@Styles/_mixins.scss';
+
+*:focus {
+    outline: none;
+}
+
+.searchBoxContainer {
+    background-color: $colorYellow;
+    height: $headerHeight;
+
+    .searchBox {
+        margin: 0 auto;
+        min-width: $pageMinWidth;
+
+        .imageContainer {
+            align-items: center;
+            display: flex;
+            height: $headerHeight;
+            justify-content: center;
+
+            img {
+                width: 40px;
+                height: auto;
+            }
+        }
+
+        .inputContainer {
+            align-items: center;
+            display: flex;
+            height: $headerHeight;
+            margin-left: -12px;
+            text-align: left;
+
+            input {
+                @include border-radius-left(3px);
+                border: none;
+                font-size: 14px;
+                height: $searchboxheight;
+                padding-left: 10px;
+                width: 760px;
+
+                &::placeholder {
+                    color: #999;
+                }
+            }
+            
+            button {
+                @include border-radius-left(3px);
+                background-color: #e0e0e0;
+                border: none;
+                color: #9b9b9b;
+                font-size: 14px;
+                height: $searchboxheight;
+                width: $searchboxheight * 1.2;
+            }
+        }
+    }
+}
