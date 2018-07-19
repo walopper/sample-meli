@@ -1,4 +1,6 @@
-# Meli test
+# Sample Meli
+
+Simple aplicacion fullstack, con un webserver en express que sirve una API REST, y un cliente en ReactJS como aplicacion que consume a la API.
 
 ### Instalacion de pendencias
 

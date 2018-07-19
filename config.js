@@ -7,9 +7,5 @@ module.exports = {
         item: 'https://api.mercadolibre.com/items/',
         categories: 'https://api.mercadolibre.com/categories/'
     },
-    searchLimit: 4,
-    author: {
-        name: 'Alejandro',
-        lastname: 'Rodriguez'
-    }
+    searchLimit: 4
 }

@@ -4,6 +4,6 @@ dist/
 .tmp/
 newrelic_agent.log
 package-lock.json
-package-lock.json
 .vscode/
 yarn.lock
+yarn-error.log
